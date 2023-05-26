@@ -44,6 +44,8 @@ figcaption {
   padding: 0px;
 }
 
+/* Row and column structure */
+
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -102,6 +104,7 @@ figcaption {
 .col-12 {
   grid-column: span 12;
 }
+
 /* Navbar Csss */
 nav {
   display: flex;
@@ -122,7 +125,7 @@ nav {
   color: white;
 }
 
-/* Main Css */
+/* End Navbar Css */
 
 /* Footer Css */
 footer {
@@ -162,9 +165,14 @@ footer {
 .footer-links li a:hover {
   text-decoration: underline;
 }
+
+/* Footer css ends  */
+
 img {
   height: 500px;
 }
+
+/* Media Queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   img {
@@ -180,7 +188,7 @@ img {
   figcaption {
     font-size: 14px;
   }
-  h4{
+  h4 {
     font-size: 16px;
   }
 }
